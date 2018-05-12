@@ -84,7 +84,7 @@ function buildHTML(xml){
   );
   setActive();
 }
-
+//
 // helper to remove dots from branchIDs so jQuery doesn't try to be too clever
 function dasherize(str){
   return str.replace(/\.+/g,'-');
